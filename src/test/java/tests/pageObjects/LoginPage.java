@@ -36,7 +36,7 @@ public class LoginPage extends src.main.framework.ParentPage {
         driver.findElement(By.xpath("//input[@id='txtUserName']")).click();
         driver.findElement(By.xpath("//input[@id='txtUserName']")).sendKeys("mehmet.akbayir58@gmail.com"+Keys.ENTER);
         driver.findElement(By.xpath("//input[@id='txtPassword']")).click();
-        driver.findElement(By.xpath("//input[@id='txtPassword']")).sendKeys("R-e-i-s58"+Keys.ENTER);
+        driver.findElement(By.xpath("//input[@id='txtPassword']")).sendKeys();
         return this;
     }
 }
